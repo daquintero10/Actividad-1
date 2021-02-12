@@ -3,12 +3,12 @@ public class Tienda {
 	/**
      * Indica el nombre de la tienda.
      */
-	private string nombre;
+	private String nombre;
 	
 	/**
      * Indica la dirección de la tienda.
      */
-	private string direccion;
+	private String direccion;
 	
 	/**
      * Indica el telefono de la tienda.
@@ -21,7 +21,7 @@ public class Tienda {
      * Retorna el nombre de la tienda.
      * @return el nombre de la tienda.
      */
-    public string darNombre( )
+    public String darNombre( )
     {
         return nombre;
     }
@@ -30,7 +30,7 @@ public class Tienda {
      * Retorna la dirección de la tienda.
      * @return la dirección de la tienda.
      */
-    public string darDireccion( )
+    public String darDireccion( )
     {
         return direccion;
     }
